@@ -1,6 +1,5 @@
 #container0 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -14,18 +13,67 @@
 
 .body__dashboard {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+.body__dashboard1 {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 40px;
 }
 
-.body__dashboard1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 40px 40px;
+.body__space {
+  padding-top: 40px;
+}
+
+.body__used {
+  font: 16px "DM Sans";
+  font-weight: bold;
+  color: #25396f;
+}
+
+.body__free {
+  font: 13px "DM Sans";
+  color: #25396f;
+}
+
+.body__stroka {
+  height: 8px;
+  width: 191px;
+}
+
+.body__button {
+  background: #51459e;
+  border-radius: 13px;
+  color: #ffffff;
+  font-family: "Sofia Pro";
+  width: 191px;
+  height: 46px;
+  border: #51459e;
+  box-shadow: 0px 10px 0px 0.5px #51459e48;
+}
+
+.body__button1 {
+  padding-top: 40px;
+}
+
+.body__button:hover {
+  background: #ffffff;
+  border-radius: 13px;
+  color: #51459e;
+  font-family: "Sofia Pro";
+  width: 191px;
+  height: 46px;
+  border: solid #51459e 3px;
+  box-shadow: none;
+}
+
+#container3 {
+  width: 400px;
+  padding-right: 5px;
 }
