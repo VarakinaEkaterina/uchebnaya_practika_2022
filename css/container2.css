@@ -5,9 +5,9 @@
 }
 
 .container2__papki1 {
-  position: relative;
-  left: 20px;
-  top: 20px;
+  position: absolute;
+  right: 20px;
+  top: 25px;
 }
 
 .container2__design {
@@ -22,6 +22,45 @@
     0px 8.14815px 6.51852px rgba(158, 160, 249, 0.0274815),
     0px 1.85185px 3.14815px rgba(158, 160, 249, 0.0168519);
   margin: 20px 10px 30px 15px;
+  position: relative;
+}
+
+.container2__design2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2__design5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2__design6{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.container2__design7{
+  position: absolute;
+  margin: 20px;
+  margin-top: 70px;
+  font: 18px "Sofia Pro";
+  color: #505887;
+}
+
+.container2__design3 {
+  font: 12px "Sofia Pro";
+  color: #718EBF;
+  margin: 20px;
+  margin-top: 125px;
+}
+
+.container2__design4 {
+  font: 12px "Sofia Pro";
+  color: #718EBF;
+  margin: 20px;
+  margin-top: 125px;
 }
 
 .container2__documents {
@@ -36,6 +75,7 @@
     0px 8.14815px 6.51852px rgba(103, 207, 236, 0.0274815),
     0px 1.85185px 3.14815px rgba(103, 207, 236, 0.0168519);
   margin: 20px 10px 30px 15px;
+  position: relative;
 }
 
 .container2__music {
@@ -50,6 +90,7 @@
     0px 8.14815px 6.51852px rgba(253, 131, 66, 0.0157037),
     0px 1.85185px 3.14815px rgba(253, 131, 66, 0.00962963);
   margin: 20px 10px 30px 15px;
+  position: relative;
 }
 
 .container2__images {
@@ -64,6 +105,7 @@
     0px 8.14815px 6.51852px rgba(255, 125, 125, 0.0274815),
     0px 1.85185px 3.14815px rgba(255, 125, 125, 0.0168519);
   margin: 20px 10px 30px 15px;
+  position: relative;
 }
 
 .container2__quick {
@@ -157,7 +199,91 @@
   background: #dee1e6;
   border-radius: 5px;
   border: none;
-  width: 90%;
+  width: 85%;
   height: 40px;
   color: #51459e;
+  padding-top: 10px;
+  font: 14px "Sofia Pro";
+}
+
+.container2__file5:hover {
+  background: #51459e;
+  border-radius: 5px;
+  border: none;
+  width: 85%;
+  height: 40px;
+  color: #dee1e6;
+  padding-top: 10px;
+  font: 14px "Sofia Pro";
+}
+
+.container2__file6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container2__file7 {
+  font: 13px "Sofia Pro";
+  margin: 6px 0px 3px 10px;
+}
+
+.container2__file8 {
+  font: 9px "Poppins";
+  color: #757575;
+  margin: 3px 0px 10px 10px;
+}
+
+.container2__file9 {
+  margin: 10px 0px 5px 10px;
+}
+
+.container2__quick2 {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding-left: 20px;
+  height: 56px;
+  width: 206px;
+  background-color: #F5F5F5;
+  border-radius: 0px 0px 15px 15px;
+  position:absolute;
+  bottom: 0px;
+}
+
+.container2__quick3 {
+  padding-left: 10px;
+  font: 13px "DM Sans";
+  font-weight: 700;
+  color: #25396F;
+}
+
+.container2__quick4 {
+  height: 173px;
+  width: 226px;
+  border-radius: 15px;
+  background-image: url(/images/build0.png);
+  position: relative;
+}
+
+.container2__quick5 {
+  font: 12px "DM Sans";
+  font-weight: 400;
+  color:  #718EBF;
+}
+
+.container2__quick7 {
+  height: 173px;
+  width: 226px;
+  border-radius: 15px;
+  background-image: url(/images/customers0.png);
+  position: relative;
+}
+
+.container2__quick6 {
+  height: 173px;
+  width: 226px;
+  border-radius: 15px;
+  background-image: url(/images/product0.png);
+  position: relative;
 }
