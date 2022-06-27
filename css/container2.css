@@ -35,30 +35,30 @@
   justify-content: space-between;
 }
 
-.container2__design6{
+.container2__design6 {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-.container2__design7{
+.container2__design7 {
   position: absolute;
   margin: 20px;
-  margin-top: 70px;
+  margin-top: 85px;
   font: 18px "Sofia Pro";
   color: #505887;
 }
 
 .container2__design3 {
   font: 12px "Sofia Pro";
-  color: #718EBF;
+  color: #718ebf;
   margin: 20px;
   margin-top: 125px;
 }
 
 .container2__design4 {
   font: 12px "Sofia Pro";
-  color: #718EBF;
+  color: #718ebf;
   margin: 20px;
   margin-top: 125px;
 }
@@ -240,14 +240,14 @@
 
 .container2__quick2 {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
   height: 56px;
   width: 206px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 0px 0px 15px 15px;
-  position:absolute;
+  position: absolute;
   bottom: 0px;
 }
 
@@ -255,7 +255,7 @@
   padding-left: 10px;
   font: 13px "DM Sans";
   font-weight: 700;
-  color: #25396F;
+  color: #25396f;
 }
 
 .container2__quick4 {
@@ -269,7 +269,7 @@
 .container2__quick5 {
   font: 12px "DM Sans";
   font-weight: 400;
-  color:  #718EBF;
+  color: #718ebf;
 }
 
 .container2__quick7 {

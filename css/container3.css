@@ -68,17 +68,60 @@
   margin-right: 15px;
 }
 
-.container3__invite {
-  margin-top: -200px;
-  margin-left: -70px;
-}
-
-.container3__inviteback {
-  margin: 30px;
-  margin-top: 60px;
-}
-
 .container2__shared0 {
   display: flex;
   flex-direction: column;
+}
+
+.container3__invite {
+  width: 334px;
+  height: 126px;
+  background: #51459e;
+  border-radius: 10px;
+  position: relative;
+  top: -160px;
+  left: -50px;
+}
+
+.container3__inviteback {
+  width: 334px;
+  height: 126px;
+  background: #f6f4ff;
+  border: 1px dashed #d0c9ff;
+  border-radius: 10px;
+}
+
+.container3__invite1 {
+  bottom: 10px;
+  position: absolute;
+  left: 20px;
+  width: 107px;
+  height: 34px;
+  background: #84e8f4;
+  border-radius: 5px;
+  border: none;
+  font: 14px "Sofia Pro";
+  color: #51459e;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.container3__invite0 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.container3__invite1:hover {
+  bottom: 10px;
+  position: absolute;
+  left: 20px;
+  width: 107px;
+  height: 34px;
+  background: #51459e;
+  border-radius: 5px;
+  border: 2px #84e8f4 solid;
+  font: 14px "Sofia Pro";
+  color: #84e8f4;
+  align-items: center;
+  padding-top: 5px;
 }
