@@ -1,0 +1,65 @@
+.container2__papki{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container2__papki1 {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.container2__design {
+  width: 193px;
+  height: 154px;
+  background-color: #F6F5FF;
+  border-radius: 10px;
+  box-shadow: 0px 100px 80px rgba(158, 160, 249, 0.07), 0px 64.8148px 46.8519px rgba(158, 160, 249, 0.0531481), 0px 38.5185px 25.4815px rgba(158, 160, 249, 0.0425185), 0px 20px 13px rgba(158, 160, 249, 0.035), 0px 8.14815px 6.51852px rgba(158, 160, 249, 0.0274815), 0px 1.85185px 3.14815px rgba(158, 160, 249, 0.0168519);;
+  margin: 20px 10px 30px 15px;
+}
+
+.container2__documents {
+  width: 193px;
+  height: 154px;
+  background-color: #F5FFFC;
+  border-radius: 10px;
+  box-shadow: 0px 100px 80px rgba(103, 207, 236, 0.07), 0px 64.8148px 46.8519px rgba(103, 207, 236, 0.0531481), 0px 38.5185px 25.4815px rgba(103, 207, 236, 0.0425185), 0px 20px 13px rgba(103, 207, 236, 0.035), 0px 8.14815px 6.51852px rgba(103, 207, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(103, 207, 236, 0.0168519);
+  margin: 20px 10px 30px 15px;
+}
+
+.container2__music {
+  width: 193px;
+  height: 154px;
+  background-color: #FFF9F0;
+  border-radius: 10px;
+  box-shadow: 0px 100px 80px rgba(253, 131, 66, 0.04), 0px 64.8148px 46.8519px rgba(253, 131, 66, 0.0303704), 0px 38.5185px 25.4815px rgba(253, 131, 66, 0.0242963), 0px 20px 13px rgba(253, 131, 66, 0.02), 0px 8.14815px 6.51852px rgba(253, 131, 66, 0.0157037), 0px 1.85185px 3.14815px rgba(253, 131, 66, 0.00962963);
+  margin: 20px 10px 30px 15px;
+}
+
+.container2__images {
+  width: 193px;
+  height: 154px;
+  background-color: #FFF5F5;
+  border-radius: 10px;
+  box-shadow: 0px 100px 80px rgba(255, 125, 125, 0.07), 0px 64.8148px 46.8519px rgba(255, 125, 125, 0.0531481), 0px 38.5185px 25.4815px rgba(255, 125, 125, 0.0425185), 0px 20px 13px rgba(255, 125, 125, 0.035), 0px 8.14815px 6.51852px rgba(255, 125, 125, 0.0274815), 0px 1.85185px 3.14815px rgba(255, 125, 125, 0.0168519);
+  margin: 20px 10px 30px 15px;
+}
+
+.container2__quick{
+  font: 18px "Sofia Pro";
+  font-weight: bold;
+  color: #505887;
+  margin: 15px;
+}
+
+.container2__quick1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 30px 15px;
+}
+
+.container2__downloads {
+  display: flex;
+  justify-content: space-between;
+}
