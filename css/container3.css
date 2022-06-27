@@ -1,7 +1,7 @@
 #container3__body3 {
   width: 400px;
   padding-right: 5px;
-  background: #FAFBFD;
+  background: #fafbfd;
 }
 
 .container3__usage {
@@ -11,15 +11,16 @@
   margin: 30px;
 }
 
-.container3__graph{
+.container3__graph {
   margin-top: 30px;
 }
 
-.container3__shared{
+.container3__shared {
   font: 18px "Sofia Pro";
   font-weight: bold;
   color: #505887;
   margin: 30px;
+  margin-top: 60px;
   margin-bottom: 0px;
 }
 
@@ -27,17 +28,17 @@
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background-color: #DEE1E6;
+  background-color: #dee1e6;
   position: relative;
 }
 
 .container3__share1 {
-  position:absolute;
+  position: absolute;
   left: 25%;
   top: 25%;
 }
 
-.container3__shared1{
+.container3__shared1 {
   display: flex;
   justify-content: space-between;
   margin-left: 30px;
@@ -48,29 +49,28 @@
   font: 13px "Sofia Pro";
   color: #505887;
   margin-left: 10px;
-
 }
 
 .container3__shared3 {
   font: 10px "Sofia Pro";
-  color: #718EBF;
+  color: #718ebf;
   margin-left: 10px;
 }
 
-.container3__shared4{
+.container3__shared4 {
   display: flex;
   justify-content: flex-start;
 }
 
 .container3__shared5 {
   font: 10px "Sofia Pro";
-  color: #718EBF;
+  color: #718ebf;
   margin-right: 15px;
 }
 
 .container3__invite {
   margin-top: -200px;
-  margin-left: -100px;
+  margin-left: -70px;
 }
 
 .container3__inviteback {
@@ -78,3 +78,7 @@
   margin-top: 60px;
 }
 
+.container2__shared0 {
+  display: flex;
+  flex-direction: column;
+}
